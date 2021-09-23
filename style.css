@@ -1,0 +1,20 @@
+div {
+ width: 300px;
+ border: 25px solid red;
+ outline: 5xp solid black;
+ padding: 25xp;
+ margin: 25px;
+}
+
+.four {
+ width: 150px;
+ border: 25px solid purple;
+ outline: 5xp solid black;
+ padding: 25xp;
+ margin: 25px; 
+}
+
+.internal {
+  border: 25px solid blue;
+  color: bluebiolet;
+}
