@@ -10,6 +10,14 @@ Increment `++` The increment operator increments the numeric value of its operan
 Decrement `--` The decrement operator decrements the numeric value of its operand by one. If placed before the operand, it returns the decremented value. If placed after the operand, it returns the original value and then decrements the operand.
 */
 
+/*Git Notes
+git init : tracks that file in git
+git status : shows branch master and commits on branch
+index add file.name or * : allows tracking in the repository
+git commit -m "initializing branches comments" : adds comments to the commits
+
+*/
+
 
 // Functions
 function greeting(phrase) {

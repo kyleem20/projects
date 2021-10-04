@@ -1,0 +1,47 @@
+:root{
+  --primary: #f393fd;
+  --bg: rgb(197, 120, 233);
+
+}
+
+body{
+  background-color: var(--bg);
+}
+
+.header{
+  margin: 1em 1;
+}
+
+.logo-container{
+  width: 50%;
+  margin: auto;
+}
+
+img{
+  max-width: 100%;
+}
+
+.balloon{
+  height: 120px;
+  width: 100px;
+  background-color: blue;
+  border-radius: 50%;
+
+}
+
+.card{
+  background-color: white;
+  padding: 1em;
+  box-shadow: 2px 0 8px rgba(0, 0, 0, .3);
+
+}
+
+
+
+
+
+
+
+.hidden{
+  display: none;
+}
