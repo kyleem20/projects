@@ -1,0 +1,70 @@
+:root {
+  --primary: rgba(231, 70, 70, 0.938);
+  --secondary: rgba(226, 226, 104, 0.904);
+  --third: rgba(92, 228, 92, 0.911);
+  --glow: rgba(107, 240, 107, 0.767);
+  --base: rgb(22, 20, 20);
+  --background-base: rgb(4, 1, 17);
+}
+
+.mx-auto{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.background{
+background-color: var(--background-base);
+padding: 1em;
+}
+
+.stoplight {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.red{
+background-color: var(--primary);
+}
+
+.red:hover{
+  box-shadow: 0px 0px 15px pink;
+}
+
+.yellow{
+background-color: var(--secondary);
+}
+.yellow:hover{
+  box-shadow: 0px 0px 15px rgb(231, 231, 84);
+}
+
+.green{
+background-color: var(--third);
+}
+
+.green:hover{
+  box-shadow: 0px 0px 15px rgb(29, 226, 29);
+}
+
+.glow{
+background-color: var(--glow);
+}
+
+.post{
+background-color: var(--base);
+padding: 1em;
+}
+
+.frame{
+background-color: var(--base);
+padding: 1em;
+}
+
+.circle {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
