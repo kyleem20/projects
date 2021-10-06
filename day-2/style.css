@@ -1,5 +1,5 @@
 :root {
-  --primary: blue;
+  --primary: rgb(28,69,134);
   --secondary: rgba(139, 179, 224, 0.808);
   --text: white;
 }
@@ -93,6 +93,10 @@ header {
 }
 
 .site-footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
   background-color: var(--primary);
-  padding: 3em;
+  padding: 2em;
 }
