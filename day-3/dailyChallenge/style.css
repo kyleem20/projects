@@ -1,0 +1,18 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main  {
+  flex-grow: 1;
+}
+
+.bg-mine {
+  background-color: aquamarine;
+}
+
+@media only screen and (min-width: 768px) {
+  .card-spill {
+    transform: translateY(5px)
+  }
