@@ -32,13 +32,14 @@ font-family: 'Bitter', serif;}
 }
 
 .card-width {
-width: 25rem;"
+width: 25rem;
 }
 
 
 
 .card-width2 {
-width: 20vw;"
+margin: 3em;
+padding: 3em;
 }
 
   body.debug .container,
