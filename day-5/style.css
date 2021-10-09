@@ -1,6 +1,7 @@
 :root { 
   --prim1: rgb(240, 170, 182);
   --prim2: rgb(232, 187, 243);
+  --prim3t: rgba(240, 170, 182, 0.835);
 }
 
 .bg-prim1 {
@@ -11,7 +12,9 @@
   background-color: var(--prim2);
 }
 
-
+.bg-prim3t {
+  background-color: var(--prim3t);
+}
 
 
 .bitter {
@@ -31,10 +34,13 @@ font-family: 'Bitter', serif;}
   width: 100%;
 }
 
+.text-color-prim2 {
+  color: var(--prim2);
+}
+
 .card-width {
 width: 25rem;
 }
-
 
 
 .card-width2 {
@@ -62,6 +68,12 @@ padding: 3em;
   background-image: url("https://s3-alpha-sig.figma.com/img/17ce/b8b2/d800322e501b1466678774147716c7a3?Expires=1634515200&Signature=XH85aDS1gDntdP5raWEj3SIXNUGM8~UUxcvtNNXJrUX3yfKtbnMeNk1U5L725xdrBjzezpZ0Q5jRL58q4AUvFjxiGf1lravmvqUWdbImVb4PaE-PbapX05ezHs7cRE5qQJot7MN8-0X~UsiYPCNaWBKg7CN2~r4Mdsy137mYeCuqd-Fk~ZByy7b4eSOf1ewI6wh~Gu-DhXgXBmFDZm4oNIdqP3IVv1XHDUsTip0dSP0rDxneVzqZHMXbKP-yKqzPxtRR~Rzcd--HXBJe80hCEoJN~ezlqIl0sl936IiS4j~vGj7bxQXv40EicB9lBj54lACgoXGEt2SzaLXaF94Idw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
   background-size: cover;
   background-position: center;
+}
+
+.dndragon{
+  image-size: cover; image
+  background-position: center;
+  
 }
 
 @media only screen and (min-width: 768px){
